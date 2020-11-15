@@ -1,0 +1,23 @@
+header {
+  .alert {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 250px;
+  }
+  .city-list-wr {
+    position: relative;
+    .dropdown-item {
+      cursor: pointer;
+    }
+  }
+
+  .spinner-border {
+    position: absolute;
+    left: -2.5rem;
+    top: 50%;
+    margin-top: -1rem;
+  }
+}
+
+

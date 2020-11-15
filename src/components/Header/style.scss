@@ -11,6 +11,9 @@ header {
       cursor: pointer;
     }
   }
+  .dropdown-item {
+    outline: none
+  }
 
   .spinner-border {
     position: absolute;

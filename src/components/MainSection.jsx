@@ -13,13 +13,9 @@ const CustomTooltip = ({ active, payload }) => {
       <div className="card p-2">
         <div className="cart-body">
           Date:
-          {' '}
-          {date}
+          {`Date: ${date}`}
           <br />
-          {' '}
-          Temperature:
-          {temp}
-          °C
+          {`Temperature: ${temp} °C`}
         </div>
       </div>
     );
